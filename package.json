@@ -1,0 +1,25 @@
+{
+  "name": "gdl004-md-links",
+  "version": "1.0.0",
+  "description": "libreria que detecta links rotos",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
+    "eslint": "^6.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erika-nath/GDL004-md-links.git"
+  },
+  "author": "Erika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erika-nath/GDL004-md-links/issues"
+  },
+  "homepage": "https://github.com/erika-nath/GDL004-md-links#readme"
+}
