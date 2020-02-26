@@ -7,7 +7,7 @@ const read = require('./read.js').rfile;
 
 
 const contoller =  (path) =>{
-let hola=  validate(path);
+let hola =  validate(path);
 let r= read(path);
 }
 
