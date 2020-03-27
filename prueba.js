@@ -1,9 +1,9 @@
-const fs = require('fs');
 const read= require('./read').rfile;
-const folder = process.argv[2];
 const fetch = require('node-fetch');
 
-read(folder);
+const folder = process.argv[2];
+
+const links = read(folder);
 
 const array=[];
 
@@ -13,6 +13,9 @@ const object = {
 		text: '',
 		file:''
 }
+
+
+fetch(folder)
 
 
 
