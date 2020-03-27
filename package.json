@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "libreria que detecta links rotos",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.20.0",
     "@typescript-eslint/parser": "^2.20.0",

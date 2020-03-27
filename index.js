@@ -3,15 +3,18 @@ const fs = require('fs');
 const path = require('path');
 const folder = process.argv[2];
 const validate = require('./validate.js').validations;
-const read = require('./read.js').rfile;
+const read= require('./read').rfile;
 
 
 const contoller =  (path) =>{
-let hola =  validate(path);
-let r= read(path);
-}
+let a =  validate(path);
+let b = read(folder);
 
+
+
+}
 contoller(folder);
+
 
 
 
